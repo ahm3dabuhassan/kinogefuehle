@@ -53,6 +53,7 @@
 			<a href='#' id='newAccount'>Konto Registrierien</a>
 			</div>
 		</main>
+		
 		<?php
 		require_once "./footer.inc.php";	
 		?>
