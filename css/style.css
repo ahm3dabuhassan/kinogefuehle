@@ -1356,7 +1356,6 @@ footer > p:nth-of-type(1) {
 	grid-template-rows:repeat(5,1fr);
 	width:100%;
 }
-
 .forum-comment-box-post{
 	display: none;
 }
