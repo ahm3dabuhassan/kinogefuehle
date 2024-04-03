@@ -7,6 +7,7 @@
                 $session = 't';
             }
             ?>
+            
             <!DOCTYPE html>
             <head><link rel="stylesheet" href="../css/style.css"><title>Grand Budapest Hotel</title>
             </head>

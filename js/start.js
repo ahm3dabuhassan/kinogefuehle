@@ -10,6 +10,7 @@ function indexUp () {
 		inc++;
 	}	
 }
+
 setInterval(indexUp, 2100);
 class FetchTask {  
 	constructor(par, val, host) { 

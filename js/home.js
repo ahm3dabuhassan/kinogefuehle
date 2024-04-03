@@ -827,6 +827,5 @@ let finder = {
 			}
 		},
 	} 
-
 	let anim = document.querySelector('#menu > div');
 	anim.addEventListener('click', menuAnimation.fun);

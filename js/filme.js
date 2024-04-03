@@ -14,6 +14,7 @@ let buildInfo = {
             buildInfo.event02();
         }
     },
+    
     event02: () => {
         if(buildInfo.start < 4.5) {
             if(MQController.mediaTest() == 'mobile'){

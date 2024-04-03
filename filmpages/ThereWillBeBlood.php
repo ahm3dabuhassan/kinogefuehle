@@ -7,6 +7,7 @@
                 $session = 't';
             }
             ?>
+            
             <!DOCTYPE html>
             <head><link rel="stylesheet" href="../css/style.css"><title>There Will Be Blood</title>
             </head>

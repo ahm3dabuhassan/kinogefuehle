@@ -7,6 +7,7 @@
                 $session = 't';
             }
             ?>
+            
             <!DOCTYPE html>
             <head><link rel="stylesheet" href="../css/style.css"><title>On the Beach at Night Alone</title>
             </head>

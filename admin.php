@@ -2,7 +2,6 @@
     $style = 'display:block';
     session_start();
     $userlogin = 'style="display:block;"';
-
     include './head.inc.php';
     include './function.inc.php'; 
     ?>

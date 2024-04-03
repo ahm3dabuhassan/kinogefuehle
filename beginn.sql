@@ -1,5 +1,6 @@
 CREATE DATABASE kino; 
 USE kino;
+
 CREATE TABLE users (
     Id int AUTO_INCREMENT, 
     Username VARCHAR(50) NOT NULL,
@@ -9,6 +10,7 @@ CREATE TABLE users (
     Email VARCHAR(80) NOT NULL,
     PRIMARY KEY(Id)
 );
+
 CREATE TABLE film (
 	Id int AUTO_INCREMENT, 
 	UserID int NOT NULL,
@@ -21,6 +23,7 @@ CREATE TABLE film (
 	Poster VARCHAR(500) DEFAULT '0',
 	PRIMARY KEY(Id)
 );
+
 CREATE TABLE topics (
 	Id int AUTO_INCREMENT, 
 	Topic VARCHAR(255) NOT NULL, 
@@ -28,6 +31,7 @@ CREATE TABLE topics (
 	Datum TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP, 
 	PRIMARY KEY(Id)
 );
+
 CREATE TABLE posts (Id int AUTO_INCREMENT, 
 	Content VARCHAR(500) NOT NULL, 
 	topicID int NOT NULL, 

@@ -42,6 +42,7 @@ let finder = {
                 }
             }
             finder.build();
+            
     },
     build: function () {
         finder.cancelButton.el.addEventListener('click', (e) => {
@@ -180,6 +181,7 @@ let menuAnimation = {
         }
     },
 } 
+
 
 let anim = document.querySelector('#menu > div');
 anim.addEventListener('click', menuAnimation.fun);

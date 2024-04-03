@@ -60,7 +60,6 @@ let finder = {
 			finder.element.addEventListener('click',() => {console.log('input');});
 		}
     }
-	
 	let findEvent = document.querySelector('#finder > input');
 	let finderInit = document.querySelector('#finder > input');
 	finderInit.addEventListener('click', finder.init);

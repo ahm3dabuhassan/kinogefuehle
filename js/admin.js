@@ -23,7 +23,6 @@ function init () {
             return this.outz;
         }
     }
-    
     class SetEvent {
         constructor(tar, fun) {
             this.target = tar; 

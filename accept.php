@@ -84,7 +84,6 @@
 		}
 	
 	}
-
 	let mkLogOutButton = {
 		parent: document.querySelector('#menu-show'),
 		storage: [],

@@ -680,5 +680,6 @@ let finder = {
             }
         }
     }
+    
     addComment.assignEvent();
 

@@ -295,6 +295,5 @@ MQController = {
 
 	let anim01 = document.querySelector('#menu > div');
 	anim01.addEventListener('click', menuAnimation.fun);
-
 	MQController.evnt();
 	document.body.addEventListener('onload',MQController.cntr());
