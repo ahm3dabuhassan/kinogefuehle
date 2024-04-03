@@ -253,6 +253,7 @@ let finder = {
     }
 }
 
+
 let findEvent = document.querySelector('#finder > input');
 findEvent.addEventListener('keyup',() => {finder.funk();});
 findEvent.addEventListener('keydown',() => {finder.funk();});

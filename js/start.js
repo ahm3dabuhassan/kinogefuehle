@@ -169,7 +169,6 @@ let nAW = {
 		}
 	}
 }
-
 	nAW.linkEvent();
 	
 	document.querySelector('main').addEventListener('click', () => {

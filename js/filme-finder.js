@@ -41,8 +41,7 @@ let finder = {
                     } 
                 }
             }
-            finder.build();
-            
+            finder.build();          
     },
     build: function () {
         finder.cancelButton.el.addEventListener('click', (e) => {

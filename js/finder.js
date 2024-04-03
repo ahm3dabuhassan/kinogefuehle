@@ -64,3 +64,4 @@ let finder = {
 	let finderInit = document.querySelector('#finder > input');
 	finderInit.addEventListener('click', finder.init);
 	findEvent.addEventListener('keyup',() => {finder.funk();});
+    
