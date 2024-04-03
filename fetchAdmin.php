@@ -37,7 +37,6 @@ if(isset($_GET['delete'])) {
           break;     
         }
       }
-      
 }
 if(isset($_GET['update'])) {
     $dataUpdate = json_decode($_GET['update'], true);
